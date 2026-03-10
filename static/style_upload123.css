@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    background-color: #121212; 
+    font-family: 'Poppins', sans-serif; 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e1e1e; 
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 3px solid #444; 
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+header h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+section#upload {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #1f1f1f;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.upload-area {
+    margin: 30px 0;
+    border: 3px dashed #ffffff;
+    padding: 20px;
+    background-color: #292929;
+    position: relative;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.upload-area:hover {
+    background-color: #353535;
+    border-color: #76c7c0; /* Highlighted color on hover */
+}
+
+.upload-area label {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Preview container */
+.preview-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#videoPreview {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#imagePreview {
+    max-width: 300px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button#submitButton {
+    padding: 12px 24px;
+    background-color: #76c7c0; 
+    color: #121212;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#submitButton:hover {
+    background-color: #5ba59d; 
+}
+
+.preview {
+    margin-top: 20px;
+    border: 2px dashed gray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #F9F9F9;
+    color: gray; 
+}
+
+.preview img {
+    max-width: 100%;
+    max-height: 100%;
+}
