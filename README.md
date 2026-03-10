@@ -161,7 +161,7 @@ The system analyzes uploaded media and outputs:
 
 ### Home Page
 <p align="center">
-  <img src="screenshots/homepage_cnn.png" width="700">
+  <img src="Screenshots/homepage_cnn.png" width="700">
 </p>
 
 ### Upload Page
@@ -170,14 +170,13 @@ The system analyzes uploaded media and outputs:
 </p>
 
 ### Result Page
-![Result Page](screenshots/result_page.png)
 <p align="center">
   <img src="Screenshots/result_page1_cnn.png" width="700">
 </p>
+
 <p align="center">
   <img src="Screenshots/result_page2_cnn.png" width="700">
 </p>
----
 
 # Research Publication
 
