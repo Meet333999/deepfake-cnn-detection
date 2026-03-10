@@ -110,6 +110,7 @@ Users can:
 ---
 
 # Project Structure
+```
 deepfake-detection/
 │
 ├── app.py
@@ -132,7 +133,7 @@ deepfake-detection/
 │ └── style_result.css
 │
 └── uploads/
-
+```
 
 ---
 
@@ -153,10 +154,29 @@ Pillow
 The system analyzes uploaded media and outputs:
 
 • Prediction result (Real / Fake)
-
 • Confidence score  
 • Extracted frames from video  
 
+## Application Screenshots
+
+### Home Page
+<p align="center">
+  <img src="screenshots/homepage_cnn.png" width="700">
+</p>
+
+### Upload Page
+<p align="center">
+  <img src="screenshots/upload_page_cnn.png" width="700">
+</p>
+
+### Result Page
+![Result Page](screenshots/result_page.png)
+<p align="center">
+  <img src="screenshots/result_page1_cnn.png" width="700">
+</p>
+<p align="center">
+  <img src="screenshots/result_page2_cnn.png" width="700">
+</p>
 ---
 
 # Research Publication
