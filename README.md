@@ -166,16 +166,16 @@ The system analyzes uploaded media and outputs:
 
 ### Upload Page
 <p align="center">
-  <img src="screenshots/upload_page_cnn.png" width="700">
+  <img src="Screenshots/upload_page_cnn.png" width="700">
 </p>
 
 ### Result Page
 ![Result Page](screenshots/result_page.png)
 <p align="center">
-  <img src="screenshots/result_page1_cnn.png" width="700">
+  <img src="Screenshots/result_page1_cnn.png" width="700">
 </p>
 <p align="center">
-  <img src="screenshots/result_page2_cnn.png" width="700">
+  <img src="Screenshots/result_page2_cnn.png" width="700">
 </p>
 ---
 
